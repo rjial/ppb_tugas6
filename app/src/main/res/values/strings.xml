@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Shop</string>
+    <string name="registration">Registration</string>
+    <string name="paybill">Paybill</string>
+    <string name="services">Services</string>
+    <string name="delivery">Delivery</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="settings">Settings</string>
 </resources>

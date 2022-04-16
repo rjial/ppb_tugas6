@@ -15,6 +15,5 @@ public class MainActivity extends AppCompatActivity {
         btnComputer = (Button) findViewById(R.id.btnComputer);
         btnPhone = (Button) findViewById(R.id.btnPhone);
         btnHomeServices = (Button) findViewById(R.id.btnHomeServices);
-
     }
 }
