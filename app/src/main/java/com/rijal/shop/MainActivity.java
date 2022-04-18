@@ -2,6 +2,7 @@ package com.rijal.shop;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -20,7 +21,10 @@ public class MainActivity extends AppCompatActivity {
         btnComputer.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(MainActivity.this, "Computer", Toast.LENGTH_SHORT).show();
+//                Toast.makeText(MainActivity.this, "Computer", Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(MainActivity.this, ItemActivity.class);
+                intent.putExtra("MENUITEM" , "COMPUTER");
+                startActivity(intent);
             }
         });
     }

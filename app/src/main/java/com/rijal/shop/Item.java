@@ -3,10 +3,23 @@ package com.rijal.shop;
 import android.os.Parcel;
 import android.os.Parcelable;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
 public class Item implements Parcelable {
     private int image;
     private String nama_item;
     private int harga;
+
+    public static List<Item> dictItemComputer = Arrays.asList(
+            new Item(R.drawable.doge, "Laptop Doge 1", 1500000),
+            new Item(R.drawable.doge, "Laptop Doge 2", 1300000),
+            new Item(R.drawable.doge, "Laptop Doge 3", 1500000),
+            new Item(R.drawable.doge, "Laptop Doge 4", 1200000),
+            new Item(R.drawable.doge, "Laptop Doge 5", 1900000),
+            new Item(R.drawable.doge, "Laptop Doge 6", 2000000)
+    );
 
     public Item(int image, String nama_item, int harga) {
         this.image = image;
