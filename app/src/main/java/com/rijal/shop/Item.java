@@ -20,6 +20,22 @@ public class Item implements Parcelable {
             new Item(R.drawable.doge, "Laptop Doge 5", 1900000),
             new Item(R.drawable.doge, "Laptop Doge 6", 2000000)
     );
+    public static List<Item> dictItemPhone = Arrays.asList(
+            new Item(R.drawable.doge, "DogePhone 1", 1300000),
+            new Item(R.drawable.doge, "DogePhone 2", 1600000),
+            new Item(R.drawable.doge, "DogePhone 3", 2100000),
+            new Item(R.drawable.doge, "DogePhone 4", 3200000),
+            new Item(R.drawable.doge, "DogePhone 5", 4400000),
+            new Item(R.drawable.doge, "DogePhone 6", 5500000)
+    );
+    public static List<Item> dictItemHomeServices = Arrays.asList(
+            new Item(R.drawable.doge, "DogeResik 1", 500000),
+            new Item(R.drawable.doge, "DogeResik 2", 399000),
+            new Item(R.drawable.doge, "DogeResik 3", 320000),
+            new Item(R.drawable.doge, "DogeResik 4", 450000),
+            new Item(R.drawable.doge, "DogeResik 5", 410000),
+            new Item(R.drawable.doge, "DogeResik 6", 670000)
+    );
 
     public Item(int image, String nama_item, int harga) {
         this.image = image;

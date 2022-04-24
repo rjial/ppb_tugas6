@@ -196,7 +196,7 @@
                 android:layout_height="200dp"
                 android:adjustViewBounds="true"
                 android:scaleType="fitXY"
-                android:src="@drawable/doge"/>
+                android:src="@drawable/banner_1"/>
         </LinearLayout>
 
     </ScrollView>

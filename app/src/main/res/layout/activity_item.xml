@@ -61,19 +61,19 @@
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@id/txtHargaBarang">
-
-                    <Button
-                        android:id="@+id/btnNextItem"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginEnd="10dp"
-                        android:text="Next" />
-
                     <Button
                         android:id="@+id/btnPreviousItem"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:layout_marginEnd="10dp"
                         android:text="Previous" />
+                    <Button
+                        android:id="@+id/btnNextItem"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Next" />
+
+
                 </LinearLayout>
 
                 <LinearLayout

@@ -27,5 +27,21 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+        btnPhone.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, ItemActivity.class);
+                intent.putExtra("MENUITEM" , "PHONE");
+                startActivity(intent);
+            }
+        });
+        btnHomeServices.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, ItemActivity.class);
+                intent.putExtra("MENUITEM" , "HOME_SERVICES");
+                startActivity(intent);
+            }
+        });
     }
 }
