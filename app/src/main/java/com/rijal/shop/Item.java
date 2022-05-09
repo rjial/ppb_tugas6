@@ -13,28 +13,20 @@ public class Item implements Parcelable {
     private int harga;
 
     public static List<Item> dictItemComputer = Arrays.asList(
-            new Item(R.drawable.doge, "Laptop Doge 1", 1500000),
-            new Item(R.drawable.doge, "Laptop Doge 2", 1300000),
-            new Item(R.drawable.doge, "Laptop Doge 3", 1500000),
-            new Item(R.drawable.doge, "Laptop Doge 4", 1200000),
-            new Item(R.drawable.doge, "Laptop Doge 5", 1900000),
-            new Item(R.drawable.doge, "Laptop Doge 6", 2000000)
+            new Item(R.drawable.acer_laptop, "Acer Heilos 300", 20000000),
+            new Item(R.drawable.asus_rog, "Asus ROG Strix G15", 13500000),
+            new Item(R.drawable.hp_pavillion, "HP Pavillion", 13000000),
+            new Item(R.drawable.thinkpad_x240, "Lenovo Thinkpad X240", 3000000)
     );
     public static List<Item> dictItemPhone = Arrays.asList(
-            new Item(R.drawable.doge, "DogePhone 1", 1300000),
-            new Item(R.drawable.doge, "DogePhone 2", 1600000),
-            new Item(R.drawable.doge, "DogePhone 3", 2100000),
-            new Item(R.drawable.doge, "DogePhone 4", 3200000),
-            new Item(R.drawable.doge, "DogePhone 5", 4400000),
-            new Item(R.drawable.doge, "DogePhone 6", 5500000)
+            new Item(R.drawable.iphone_11, "IPhone 11", 11000000),
+            new Item(R.drawable.poco_x3, "Poco X3", 4000000),
+            new Item(R.drawable.galaxy_note_10, "Samsung Galaxy Note 10", 10000000)
     );
     public static List<Item> dictItemHomeServices = Arrays.asList(
-            new Item(R.drawable.doge, "DogeResik 1", 500000),
-            new Item(R.drawable.doge, "DogeResik 2", 399000),
-            new Item(R.drawable.doge, "DogeResik 3", 320000),
-            new Item(R.drawable.doge, "DogeResik 4", 450000),
-            new Item(R.drawable.doge, "DogeResik 5", 410000),
-            new Item(R.drawable.doge, "DogeResik 6", 670000)
+            new Item(R.drawable.samsung_canister, "Samsung Canister", 3500000),
+            new Item(R.drawable.xiamoi_mijia, "Xiaomi Mijia", 3500000),
+            new Item(R.drawable.irobot_roomba, "IRobot Roomba", 4000000)
     );
 
     public Item(int image, String nama_item, int harga) {

@@ -3,6 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Important/KULIAH/Semester_4/Pemrograman_Perangkat_Berjalan_1/Pertemuan_6/Tugas/Shop/app/src/main/res/layout/activity_grid_item.xml" value="0.17074275362318841" />
+        <entry key="..\:/Important/KULIAH/Semester_4/Pemrograman_Perangkat_Berjalan_1/Pertemuan_6/Tugas/Shop/app/src/main/res/layout/activity_item.xml" value="0.17074275362318841" />
+        <entry key="..\:/Important/KULIAH/Semester_4/Pemrograman_Perangkat_Berjalan_1/Pertemuan_6/Tugas/Shop/app/src/main/res/layout/activity_main.xml" value="0.17074275362318841" />
         <entry key="app/src/main/res/drawable/contact_us.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/delivery.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/laptop_24.xml" value="0.1" />
@@ -12,6 +15,7 @@
         <entry key="app/src/main/res/drawable/settings.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_item.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.195" />
       </map>
     </option>
   </component>
